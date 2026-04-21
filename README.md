@@ -16,11 +16,12 @@ All email addresses here are example/demo addresses (no real company data).
   - - Fits into an ERP workflow (Navision) for new item creation and price changes.
 
 ## Tech stack
-- Runs on Windows with Outlook desktop installed (COM automation)
+
 - Python
 - Outlook automation (`win32com.client`, `pythoncom`)
 - GUI with `tkinter`
 - Standard libraries: `os`, `json`, `datetime`, `threading`, etc.
+- Runs on Windows with Outlook desktop installed (COM automation)
 
 ## Important note
 
