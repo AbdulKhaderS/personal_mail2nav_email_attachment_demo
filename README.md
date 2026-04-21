@@ -13,9 +13,10 @@ All email addresses here are example/demo addresses (no real company data).
 - Provides a Tkinter control panel:
   - Process new emails.
   - Open a reply window for completed jobs (Done — Send Reply).
+  - - Fits into an ERP workflow (Navision) for new item creation and price changes.
 
 ## Tech stack
-
+- Runs on Windows with Outlook desktop installed (COM automation)
 - Python
 - Outlook automation (`win32com.client`, `pythoncom`)
 - GUI with `tkinter`
